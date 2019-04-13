@@ -37,7 +37,7 @@ EmberJS was chosen as it is the Frontend tech used at Upfluence.
 
 The solution also relies on 2 external libraries
 HighCharts and Momentjs
-* HighCharts because of its easy installation and well written documentation
+* HighCharts because of its easy installation and well written documentation, it is also responsive, which is dope.
 * Momentjs to manipulate each post's timestamp, it is also supported by Ember.
 * Object manipulation was made using native javascript functions, Lodash was considered but it was not really needed.
 
