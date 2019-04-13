@@ -49,4 +49,5 @@ Heroku was used to host the demo app with the help of ember-cli-buildtools, it's
 * Improve the animation on data update by adding fluidity instead of resetting the graph bubbles.
 * Refactor the static data part, some of them can be generated with few lines.
 * Add the ability for the user to change the graph type and customize the way it appears.
+* Add more detailed info about each bubble in the graph (Number of each type of post, preview of latest post, etc...) 
 
