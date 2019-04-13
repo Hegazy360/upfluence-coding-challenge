@@ -21,11 +21,17 @@ export default Component.extend({
 
   willRender() {
     var props = this;
-    var { refreshing, refreshRate } = props;
+    var { refreshing, refreshRate, initialRender } = this;
     var graphCoordinates = [];
 
     eventSource.onmessage = event => {
       this.updateGraphCoordinates(event.data, graphCoordinates);
+      if (initialRender) {
+        props.setProperties({
+          chartData: graphCoordinates,
+          initialRender: false
+        });
+      }
     };
 
     if (refreshing) {

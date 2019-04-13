@@ -39,7 +39,6 @@
     "ember-export-application-global": "^2.0.0",
     "ember-highcharts": "^1.1.1",
     "ember-load-initializers": "^1.1.0",
-    "ember-lodash": "^4.19.4",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-moment": "^7.8.1",
     "ember-qunit": "^3.4.1",

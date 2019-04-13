@@ -1,7 +1,11 @@
-<div id="container" style="min-width: 310px; width: 90%; margin: 0 auto">
+<div class="graphContainer">
   {{high-charts chartOptions=chartOptions content=chartData }}
 </div>
 
-<p class="refreshRateText">Refresh rate : every {{this.refreshRate}} seconds</p>
+<p class="refreshRateText">
+  Refresh rate : every {{this.refreshRate}} seconds
+</p>
 
-<button class="stopRefreshBtn" {{action "stopRefreshing" }}>{{if this.refreshing "Stop Refreshing" "Refreshing Stopped"}}</button>
+<button class="stopRefreshBtn" {{action "stopRefreshing" }}>
+  {{if this.refreshing "Stop Refreshing" "Refreshing Stopped"}}
+</button>

@@ -9,11 +9,13 @@
   margin: auto;
   border-bottom: 1px solid;
 }
+
 .refreshRateText {
   color: #333333;
   font-weight: bold;
   text-align: center;
 }
+
 .stopRefreshBtn:hover {
   cursor: pointer;
   color: #494949;
@@ -23,4 +25,16 @@
 
 .stopRefreshBtn:focus {
   outline: none;
+}
+
+.graphContainer {
+  min-width: 310px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .graphContainer {
+    width: 100%;
+  }
 }
