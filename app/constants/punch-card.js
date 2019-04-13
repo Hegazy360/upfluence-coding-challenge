@@ -138,6 +138,5 @@ export const chartOptions = {
     headerFormat: "<table>",
     pointFormat: "<tr><th>Number of posts:</th><td>{point.z}</td></tr>",
     footerFormat: "</table>",
-    followPointer: true
   }
 };
