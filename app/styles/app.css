@@ -1,0 +1,26 @@
+.stopRefreshBtn {
+  display: block;
+  color: #20bf6b;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  background: #ffffff;
+  padding: 10px 20px 15px;
+  margin: auto;
+  border-bottom: 1px solid;
+}
+.refreshRateText {
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+}
+.stopRefreshBtn:hover {
+  cursor: pointer;
+  color: #494949;
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+
+.stopRefreshBtn:focus {
+  outline: none;
+}
